@@ -1,9 +1,9 @@
 
 print("="*20)
 
-customerNames = ['Jane Smith', 'Iason Jordan', 'David Morgan', 'Brain John', 'Jack Swift']
-customerPins = ['0123', '2575', '7275', '2312', '5049']
-customerBalances = [10000, 20000, 20000, 40000, 10000]
+customerNames = ['dileep', 'ramesh', 'randeep', 'kiran']
+customerPins = ['1234', '4567', '0987', '6543']
+customerBalances = [20000, 30000, 40000, 50000, 6000]
 deposition = 0
 withdrawal = 0
 balance = 0
@@ -11,17 +11,16 @@ counter_1 = 1
 counter_2 = 5
 i = 0
 
-# This statement below helps the program to run continuously.
+
 while True:
-    # os.system("cls")
     print("=====================================")
-    print(" ----Welcome to Times Bank----       ")
+    print(" ----Welcome to State Bank----       ")
     print("*************************************")
-    print("=<< 1. Open a new account         >>=")
-    print("=<< 2. Withdraw Money             >>=")
-    print("=<< 3. Deposit Money              >>=")
-    print("=<< 4. Check Customers & Balance  >>=")
-    print("=<< 5. Exit/Quit                  >>=")
+    print("----1. Open a new account    ")
+    print("----2. Withdraw Money            ")
+    print("----3. Deposit Money    ")
+    print("----4. Check Customers & Balance ")
+    print("----5. Exit/Quit                ")
     print("*************************************")
     # The below statement takes the choice number from the user.
     choiceNumber = input("Select your choice number from the above menu : ")
